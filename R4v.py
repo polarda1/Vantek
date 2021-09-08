@@ -154,8 +154,7 @@ def menu():
 	logo()
 	print" \033[0;95m  NAMA       : "+nama
 	print" \033[0;95m  IP ADDRESS : "+ip
-        print" \033[0;95m  Status       : "Test Version"
-	print" \033[0;94m  #-----------------------------------#"
+        print" \033[0;94m  #-----------------------------------#"
 	print" \033[0;96m  [1] CRACK DARI ID PUBLIK"
 	print" \033[0;96m  [2] CRACK DARI FOLLOWERS"
 	print" \033[0;96m  [3] CEK HASIL OPSI"
@@ -166,7 +165,7 @@ def menu():
 	
 ###PILIHHH ###
 def pilih():
-	kontol = raw_input("\033[1;95m  ┌─[Ilh4m | Gntenk└──╼ ❯❯❯ \033[92m :\033[1;92m ")
+	kontol = raw_input("\033[1;95m  ┌─[R4v | Gntenk└──╼ ❯❯❯ \033[92m :\033[1;92m ")
 	if kontol == "":
 		menu()
 	elif kontol == "1":
